@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Comment</Title>
+      <Shortcut>Comment</Shortcut>
+      <Description>Comment fragment.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>LOGIN</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>DB</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>CARET</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[/* =============================================
+-- Author:      $LOGIN$
+-- Create date: $DATE$ $TIME$
+-- Database:    $DB$
+-- Description: 
+============================================= */
+
+$CARET$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
