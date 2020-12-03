@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>ConcatString</Title>
+      <Shortcut>ConcatString</Shortcut>
+      <Description>Concatenate column values into a string.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>column_alias</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>column_name</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>schema</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>table_name</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[SELECT $column_alias$ = STUFF((
+	SELECT ', ' + $column_name$
+	FROM $schema$.$table_name$
+	FOR XML PATH(''), TYPE).value('.', 'NVARCHAR(MAX)'), 1, 2, '')
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
