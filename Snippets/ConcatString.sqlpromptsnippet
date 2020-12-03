@@ -4,7 +4,7 @@
     <Header>
       <Title>ConcatString</Title>
       <Shortcut>ConcatString</Shortcut>
-      <Description>Concatenate column values into a string.</Description>
+      <Description>Concatenate Column Values Into a Comma Separated String.</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
@@ -13,9 +13,9 @@
     <Snippet>
       <Declarations>
         <Literal>
-          <ID>column_alias</ID>
+          <ID>table_alias</ID>
           <ToolTip />
-          <Default />
+          <Default>T</Default>
         </Literal>
         <Literal>
           <ID>column_name</ID>
@@ -23,21 +23,29 @@
           <Default />
         </Literal>
         <Literal>
-          <ID>schema</ID>
+          <ID>schema_name</ID>
           <ToolTip />
-          <Default />
+          <Default>dbo</Default>
         </Literal>
         <Literal>
           <ID>table_name</ID>
           <ToolTip />
           <Default />
         </Literal>
+        <Literal>
+          <ID>column_alias</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
       </Declarations>
-      <Code Language="sql"><![CDATA[SELECT $column_alias$ = STUFF((
-	SELECT ', ' + $column_name$
-	FROM $schema$.$table_name$
-	FOR XML PATH(''), TYPE).value('.', 'NVARCHAR(MAX)'), 1, 2, '')
-]]></Code>
+      <Code Language="sql"><![CDATA[SELECT STUFF(
+				((SELECT ', ' + $table_alias$.$column_name$
+				FROM $schema_name$.$table_name$ AS $table_alias$
+				FOR XML PATH(''), TYPE).value('.', 'NVARCHAR(MAX)')), -- CSV Expression will Append to Initial Expression
+				1, -- Initial Expression Start Position
+				2, -- Replacement Length
+				'' -- Initial Expression
+			) AS $column_alias$]]></Code>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>
