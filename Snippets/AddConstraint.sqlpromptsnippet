@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>AddConstraint</Title>
+      <Shortcut>AddConstraint</Shortcut>
+      <Description>Add Constraint</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>schema_name</ID>
+          <ToolTip />
+          <Default>dbo</Default>
+        </Literal>
+        <Literal>
+          <ID>table_name</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>column_name</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[ALTER TABLE $schema_name$.$table_name$
+	ADD CONSTRAINT CK_$table_name$_$column_name$ 
+	CHECK ($column_name$ > 0)
+GO]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
