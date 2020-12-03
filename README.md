@@ -1,0 +1,2 @@
+# SQLpromptSnippets
+Redgate SQLprompt Snippets
