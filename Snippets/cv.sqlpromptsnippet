@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>cv</Title>
+      <Shortcut>cv</Shortcut>
+      <Description>Create view</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>view_name</ID>
+          <ToolTip />
+          <Default>[schema].[view_name]</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[CREATE VIEW $view_name$
+--WITH ENCRYPTION, SCHEMABINDING, VIEW_METADATA
+AS
+    $SELECTEDTEXT$$CURSOR$
+-- WITH CHECK OPTION
+GO
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

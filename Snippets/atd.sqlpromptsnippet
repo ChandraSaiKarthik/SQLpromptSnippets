@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>atd</Title>
+      <Shortcut>atd</Shortcut>
+      <Description>Drop column</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>table_name</ID>
+          <ToolTip />
+          <Default>[schema].[table_name]</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[ALTER TABLE $table_name$ DROP COLUMN ]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

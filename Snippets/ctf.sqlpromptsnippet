@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>ctf</Title>
+      <Shortcut>ctf</Shortcut>
+      <Description>Create multi-statement table-valued function</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>function_name</ID>
+          <ToolTip />
+          <Default>[schema].[function_name]</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[CREATE FUNCTION $function_name$
+    (@parameter_name AS INT)
+RETURNS @return_variable TABLE (/* table type definition */)
+--WITH ENCRYPTION|SCHEMABINDING, ...
+AS
+BEGIN
+    RETURN $CURSOR$
+END
+GO
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

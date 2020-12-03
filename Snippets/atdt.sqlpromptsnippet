@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>atdt</Title>
+      <Shortcut>atdt</Shortcut>
+      <Description>Disable trigger</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>table_name</ID>
+          <ToolTip />
+          <Default>[schema].[table_name]</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[ALTER TABLE $table_name$ DISABLE TRIGGER ]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

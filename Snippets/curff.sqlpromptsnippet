@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>curff</Title>
+      <Shortcut>curff</Shortcut>
+      <Description>Fast-forward read-only cursor</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>cursor_name</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>select_statement</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[/* declare variables */
+DECLARE @variable INT
+
+DECLARE $cursor_name$ CURSOR FAST_FORWARD READ_ONLY FOR $select_statement$
+
+OPEN $cursor_name$
+
+FETCH NEXT FROM $cursor_name$ INTO @variable
+
+WHILE @@FETCH_STATUS = 0
+BEGIN
+    $CURSOR$
+
+    FETCH NEXT FROM $cursor_name$ INTO @variable
+END
+
+CLOSE $cursor_name$
+DEALLOCATE $cursor_name$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

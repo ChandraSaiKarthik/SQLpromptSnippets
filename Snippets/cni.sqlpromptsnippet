@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>cni</Title>
+      <Shortcut>cni</Shortcut>
+      <Description>Create non-unique nonclustered index</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>owner</ID>
+          <ToolTip />
+          <Default>[schema].[owner_name]</Default>
+        </Literal>
+        <Literal>
+          <ID>column_name</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>index_name</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[CREATE NONCLUSTERED INDEX $index_name$
+ON $owner$ ( $column_name$ )
+--WITH PAD_INDEX
+--    | FILLFACTOR = fillfactor
+--    | IGNORE_DUP_KEY
+--    | DROP_EXISTING
+--    | STATISTICS_NORECOMPUTE
+--    | SORT_IN_TEMPDB, .. as required
+-- ON filegroup
+GO
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
