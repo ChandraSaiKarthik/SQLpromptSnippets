@@ -4,7 +4,7 @@
     <Header>
       <Title>Comment</Title>
       <Shortcut>Comment</Shortcut>
-      <Description>Comment fragment.</Description>
+      <Description>Comment Fragment</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
@@ -13,29 +13,20 @@
     <Snippet>
       <Declarations>
         <Literal>
-          <ID>LOGIN</ID>
-          <ToolTip />
-          <Default />
-        </Literal>
-        <Literal>
           <ID>DB</ID>
-          <ToolTip />
-          <Default />
-        </Literal>
-        <Literal>
-          <ID>CARET</ID>
           <ToolTip />
           <Default />
         </Literal>
       </Declarations>
       <Code Language="sql"><![CDATA[/* =============================================
--- Author:      $LOGIN$
--- Create date: $DATE$ $TIME$
--- Database:    $DB$
--- Description: 
+-- Author		: $USER$
+-- Create date	: $DATE$ $TIME$
+-- Database		: $DB$
+-- Description	: 
+-- History		:
 ============================================= */
 
-$CARET$]]></Code>
+$CURSOR$]]></Code>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>
