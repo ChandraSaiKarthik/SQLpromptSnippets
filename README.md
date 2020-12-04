@@ -1,6 +1,4 @@
-# SQLpromptSnippets:
-Redgate SQLprompt Snippets
-<p><a href="https://documentation.red-gate.com/sp/sql-code-snippets/sharing-snippets">Sharing SQL Prompt Snippets</a></p>
+# Redgate SQLprompt Snippets:
 <blockquote>
   <p><b>Read Me:</b></p>
   <li>This repository is for sharing the Improved Red Gate SQL Prompt Snippets across SQLprompt Users and to make the process of templating SQL Code more Collaborative.</li>
@@ -42,3 +40,5 @@ Redgate SQLprompt Snippets
   <li>Keep SnippetsList.txt (root directory) updated</li>
   <li>Submit contributions as Pull Requests</li>
 </blockquote>
+
+<p><a href="https://documentation.red-gate.com/sp/sql-code-snippets/sharing-snippets">How to Share SQL Prompt Snippets.?</a></p>
