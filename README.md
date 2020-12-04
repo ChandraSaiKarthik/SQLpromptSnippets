@@ -41,4 +41,4 @@
   <li>Submit contributions as Pull Requests</li>
 </blockquote>
 
-<p><a href="https://documentation.red-gate.com/sp/sql-code-snippets/sharing-snippets">How to Share SQL Prompt Snippets.?</a></p>
+<p>Refer: <a href="https://documentation.red-gate.com/sp/sql-code-snippets/sharing-snippets">Sharing SQL Prompt Snippets</a></p>
