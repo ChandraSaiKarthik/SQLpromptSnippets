@@ -36,7 +36,7 @@ Redgate SQLprompt Snippets
 </blockquote>
 
 <blockquote>
-  <p><b>How to Contribute Guidelines:</b></p>
+  <p><b>How to Contribute.?</b></p>
   <li>Fork this repo</li>
   <li>Add / edit snippets</li>
   <li>Keep SnippetsList.txt (root directory) updated</li>
