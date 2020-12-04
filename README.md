@@ -4,7 +4,7 @@ Redgate SQLprompt Snippets
 <blockquote>
   <b>Configuring SQL Prompt Snippets:</b>
   <p>Clone the "SQLpromptSnippets" from GitHub to Local Folder.</p>
-  <p>&nbsp;&nbsp;&nbsp;&nbsp;For Example: "<b>C:\GitHub\SQLpromptSnippets</b>"</p>
+  &nbsp;&nbsp;&nbsp;&nbsp;For Example: "<b>C:\GitHub\SQLpromptSnippets</b>".
   <p>Open SSMS; In the SSMS Menu Bar, Click <b>SQL Prompt</b> → <b>Options</b>.</p>
   <ol>
     <li>Click "Snippets" [1] (Sidebar)</li>
