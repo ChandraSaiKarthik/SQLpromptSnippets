@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>CreateCursor</Title>
+      <Shortcut>CreateCursor</Shortcut>
+      <Description>Create Cursor Syntax</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>variable1</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>data_type1</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>variable2</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>data_type2</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>cursor_name</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>col1</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>col2</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>schema_name</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>table_name</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[DECLARE $variable1$ $data_type1$,
+		$variable2$ $data_type2$;				/* Declare All Required Variables */
+
+DECLARE $cursor_name$ CURSOR					/* Declare Cursor Name */
+--[LOCAL | GLOBAL]								/* Define Cursor Scope */
+--[FORWARD_ONLY | SCROLL]						/* Define Movement Direction of Cursor */  
+--[KEYSET | DYNAMIC | STATIC | FAST_FORWARD]	/* Define Basic Type of Cursor */  
+--[SCROLL_LOCKS | OPTIMISTIC | READ_ONLY]		/* Define Locks */
+FOR
+(
+	SELECT $col1$, $col2$
+	FROM $schema_name$.$table_name$
+	WHERE 1 = 1
+);
+
+OPEN $cursor_name$;												/* Open Cursor */
+
+FETCH NEXT FROM $cursor_name$ INTO $variable1$, $variable2$;	/* Fetch Data From Cursor */
+
+WHILE @@FETCH_STATUS = 0
+BEGIN
+
+	SELECT $variable1$, $variable2$;
+
+	FETCH NEXT FROM $cursor_name$ INTO $variable1$, $variable2$;/* Fetch Next Data From Cursor */
+
+END;
+
+CLOSE $cursor_name$;											/* Close The Cursor */
+DEALLOCATE $cursor_name$;										/* DeAllocate all Resources and Memory */  ]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
