@@ -6,17 +6,15 @@ Redgate SQLprompt Snippets
   <p>Clone the "SQLpromptSnippets" from GitHub to Local Folder.</p>
   <p>&nbsp;&nbsp;&nbsp;&nbsp;For Example: "<b>C:\GitHub\SQLpromptSnippets</b>"</p>
   <p>Open SSMS; In the SSMS Menu Bar, Click <b>SQL Prompt</b> → <b>Options</b>.</p>
-  <blockquote>
-    <ol>
-      <li>Click "Snippets" [1] (Sidebar)</li>
-      <li>Click "..." [2]</li>
-      <li>Navigate to the Folder [3] Containing "<b>.sqlpromptsnippet</b>" file extension.</li>
-      &nbsp;&nbsp;&nbsp;&nbsp;For Example: "<b>C:\GitHub\SQLpromptSnippets\Snippets</b>".
-      <li>Click "Select Folder" [4].</li>
-      <li>Click "OK" [5].</li>
-    </ol>
-    <p><img src="https://i.postimg.cc/HLvg794t/SQLprompt-Snippets-Location-Sharing.png" title="SQLpromptSnippetsLocationSharing"/></p>
-  </blockquote>
+  <ol>
+    <li>Click "Snippets" [1] (Sidebar)</li>
+    <li>Click "..." [2]</li>
+    <li>Navigate to the Folder [3] Containing "<b>.sqlpromptsnippet</b>" file extension.</li>
+    &nbsp;&nbsp;&nbsp;&nbsp;For Example: "<b>C:\GitHub\SQLpromptSnippets\Snippets</b>".
+    <li>Click "Select Folder" [4].</li>
+    <li>Click "OK" [5].</li>
+  </ol>
+  <p><img src="https://i.postimg.cc/HLvg794t/SQLprompt-Snippets-Location-Sharing.png" title="SQLpromptSnippetsLocationSharing"/></p>
   <p>Note: Snippets are stored as XML files with the <b>.sqlpromptsnippet</b> file extension.</p>
 </blockquote>
 --
