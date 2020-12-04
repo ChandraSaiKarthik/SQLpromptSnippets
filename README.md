@@ -3,9 +3,10 @@ Redgate SQLprompt Snippets
 <p><a href="https://documentation.red-gate.com/sp/sql-code-snippets/sharing-snippets">Sharing snippets</a></p>
 <blockquote>
   <p><b>Configuring SQL Prompt Snippets:</b></p>
-  Clone the "SQLpromptSnippets" from GitHub to Local Folder.
-  &nbsp;&nbsp;&nbsp;&nbsp;For Example: "<b>C:\GitHub\SQLpromptSnippets</b>".
-  <p>Open SSMS; In the SSMS Menu Bar, Click <b>SQL Prompt</b> → <b>Options</b>.</p>
+  <li>Clone the "SQLpromptSnippets" from GitHub to Local Folder.</li>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For Example: "<b>C:\GitHub\SQLpromptSnippets</b>".
+  <li>Open SSMS; In the SSMS Menu Bar, Click <b>SQL Prompt</b> → <b>Options</b>.</li>
+  <blockquote>
   <ol>
     <li>Click "Snippets" [1] (Sidebar)</li>
     <li>Click "..." [2]</li>
@@ -14,6 +15,7 @@ Redgate SQLprompt Snippets
     <li>Click "Select Folder" [4].</li>
     <li>Click "OK" [5].</li>
   </ol>
+  </blockquote>  
   <p><img src="https://i.postimg.cc/HLvg794t/SQLprompt-Snippets-Location-Sharing.png" title="SQLpromptSnippetsLocationSharing"/></p>
   <p>Note: Snippets are stored as XML files with the <b>.sqlpromptsnippet</b> file extension.</p>
 </blockquote>
