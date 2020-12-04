@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>IfExists</Title>
+      <Shortcut>IfExists</Shortcut>
+      <Description>If Exists</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>schema_name</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>table_name</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>filter</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[IF EXISTS
+(
+	SELECT 1
+	FROM $schema_name$.$table_name$
+	WHERE 1 = 1 -- AND $filter$
+)
+BEGIN
+
+	PRINT 'Exists'
+
+END]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
