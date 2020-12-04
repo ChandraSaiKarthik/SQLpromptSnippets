@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>case</Title>
+      <Shortcut>case</Shortcut>
+      <Description>Case Statement Expression</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>input_expression</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>when_expression1</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>then_expression1</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>when_expression2</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>then_expression2</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[CASE $input_expression$
+	WHEN $when_expression1$ THEN $then_expression1$
+	WHEN $when_expression2$ THEN $then_expression2$
+	ELSE
+END]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
