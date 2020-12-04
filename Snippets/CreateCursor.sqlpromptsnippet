@@ -59,12 +59,12 @@
         </Literal>
       </Declarations>
       <Code Language="sql"><![CDATA[DECLARE $variable1$ $data_type1$,
-		$variable2$ $data_type2$;				/* Declare All Required Variables */
+		$variable2$ $data_type2$;					/* Declare All Required Variables */
 
-DECLARE $cursor_name$ CURSOR					/* Declare Cursor Name */
+DECLARE $cursor_name$ CURSOR						/* Declare Cursor Name */
 --[LOCAL | GLOBAL]								/* Define Cursor Scope */
---[FORWARD_ONLY | SCROLL]						/* Define Movement Direction of Cursor */  
---[KEYSET | DYNAMIC | STATIC | FAST_FORWARD]	/* Define Basic Type of Cursor */  
+--[FORWARD_ONLY | SCROLL]						/* Define Movement Direction of Cursor */
+--[KEYSET | DYNAMIC | STATIC | FAST_FORWARD]	/* Define Basic Type of Cursor */
 --[SCROLL_LOCKS | OPTIMISTIC | READ_ONLY]		/* Define Locks */
 FOR
 (
@@ -73,16 +73,16 @@ FOR
 	WHERE 1 = 1
 );
 
-OPEN $cursor_name$;												/* Open Cursor */
+OPEN $cursor_name$;											/* Open Cursor */
 
-FETCH NEXT FROM $cursor_name$ INTO $variable1$, $variable2$;	/* Fetch Data From Cursor */
+FETCH NEXT FROM $cursor_name$ INTO $variable1$, $variable2$;		/* Fetch Data From Cursor */
 
 WHILE @@FETCH_STATUS = 0
 BEGIN
 
 	SELECT $variable1$, $variable2$;
 
-	FETCH NEXT FROM $cursor_name$ INTO $variable1$, $variable2$;/* Fetch Next Data From Cursor */
+	FETCH NEXT FROM $cursor_name$ INTO $variable1$, $variable2$;	/* Fetch Next Data From Cursor */
 
 END;
 
