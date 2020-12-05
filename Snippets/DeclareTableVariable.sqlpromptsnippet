@@ -2,8 +2,8 @@
 <CodeSnippets>
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>DeclareTable</Title>
-      <Shortcut>DeclareTable</Shortcut>
+      <Title>DeclareTableVariable</Title>
+      <Shortcut>DeclareTableVariable</Shortcut>
       <Description>Declare Table Variable</Description>
       <Author />
       <SnippetTypes>
