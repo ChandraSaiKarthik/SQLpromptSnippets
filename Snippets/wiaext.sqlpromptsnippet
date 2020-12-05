@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>wiaext</Title>
+      <Shortcut>wiaext</Shortcut>
+      <Description>WhoIsActive Extended</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[EXEC master.dbo.sp_WhoIsActive --
+    @get_outer_command = 1,
+    @get_plans = 1,
+    @get_transaction_info = 1,
+    @get_additional_info = 1;]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
