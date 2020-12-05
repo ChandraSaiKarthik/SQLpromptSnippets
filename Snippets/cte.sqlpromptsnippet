@@ -4,7 +4,7 @@
     <Header>
       <Title>cte</Title>
       <Shortcut>cte</Shortcut>
-      <Description>WITH cte fragment</Description>
+      <Description>WITH CTE Fragment</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
@@ -18,8 +18,7 @@
           <Default />
         </Literal>
       </Declarations>
-      <Code Language="sql"><![CDATA[
-        WITH $cte_name$ AS
+      <Code Language="sql"><![CDATA[;WITH $cte_name$ AS
 (
 $SELECTEDTEXT$
 )
