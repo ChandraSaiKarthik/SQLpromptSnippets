@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>DynamicSQL</Title>
+      <Shortcut>DynamicSQL</Shortcut>
+      <Description>Execute Dynamic SQL Command</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>variable_name</ID>
+          <ToolTip />
+          <Default>SQLstring</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[DECLARE @$variable_name$ NVARCHAR(MAX);
+SET @$variable_name$ = N'';
+
+--PRINT @$variable_name$;
+EXEC sys.sp_executesql @$variable_name$;]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
