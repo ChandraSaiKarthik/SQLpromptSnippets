@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>StartJob</Title>
+      <Shortcut>StartJob</Shortcut>
+      <Description>Start Job</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>job_name</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[EXEC msdb.dbo.sp_start_job --
+    @job_name = '$job_name$';
+GO]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
