@@ -13,7 +13,7 @@
     <Snippet>
       <Declarations>
         <Literal>
-          <ID>schema</ID>
+          <ID>schema_name</ID>
           <ToolTip />
           <Default />
         </Literal>
@@ -23,8 +23,8 @@
           <Default />
         </Literal>
       </Declarations>
-      <Code Language="sql"><![CDATA[IF OBJECT_ID('$schema$.$ScalarFunction_name$', 'FN') IS NOT NULL
-	DROP TABLE $schema$.$ScalarFunction_name$
+      <Code Language="sql"><![CDATA[IF OBJECT_ID('$schema_name$.$ScalarFunction_name$', 'FN') IS NOT NULL
+	DROP TABLE $schema_name$.$ScalarFunction_name$
 GO
 
 $CURSOR$]]></Code>
