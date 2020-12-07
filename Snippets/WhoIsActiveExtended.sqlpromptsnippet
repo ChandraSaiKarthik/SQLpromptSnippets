@@ -2,8 +2,8 @@
 <CodeSnippets>
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>wiaext</Title>
-      <Shortcut>wiaext</Shortcut>
+      <Title>WhoIsActiveExtended</Title>
+      <Shortcut>WhoIsActiveExtended</Shortcut>
       <Description>WhoIsActive Extended</Description>
       <Author />
       <SnippetTypes>
