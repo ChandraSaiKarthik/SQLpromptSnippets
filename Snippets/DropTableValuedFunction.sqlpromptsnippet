@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>DropTableValuedFunction</Title>
+      <Shortcut>DropTableValuedFunction</Shortcut>
+      <Description>Drop TableValuedFunction If Exists</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>schema</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>TableValuedFunction_name</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[IF OBJECT_ID('$schema$.$TableValuedFunction_name$', 'TF') IS NOT NULL
+	DROP TABLE $schema$.$TableValuedFunction_name$
+GO
+
+$CURSOR$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
