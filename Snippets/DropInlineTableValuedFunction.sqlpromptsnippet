@@ -4,7 +4,7 @@
     <Header>
       <Title>DropInlineTableValuedFunction</Title>
       <Shortcut>DropInlineTableValuedFunction</Shortcut>
-      <Description>Drop InlineTableValuedFunction If Exists</Description>
+      <Description>Drop InlineTableValuedFunction If Already Exists</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

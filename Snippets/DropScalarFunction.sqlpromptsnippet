@@ -4,7 +4,7 @@
     <Header>
       <Title>DropScalarFunction</Title>
       <Shortcut>DropScalarFunction</Shortcut>
-      <Description>Drop ScalarFunction If Exists</Description>
+      <Description>Drop ScalarFunction If Already Exists</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

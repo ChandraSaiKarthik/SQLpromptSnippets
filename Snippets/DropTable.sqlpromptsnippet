@@ -2,9 +2,9 @@
 <CodeSnippets>
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>DropDatabase</Title>
-      <Shortcut>DropDatabase</Shortcut>
-      <Description>Drop Database If Already Exists</Description>
+      <Title>DropTable</Title>
+      <Shortcut>DropTable</Shortcut>
+      <Description>Drop Table If Already Exists</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
@@ -13,20 +13,20 @@
     <Snippet>
       <Declarations>
         <Literal>
-          <ID>database_name</ID>
+          <ID>schema_name</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>table_name</ID>
           <ToolTip />
           <Default />
         </Literal>
       </Declarations>
-      <Code Language="sql"><![CDATA[USE master;
+      <Code Language="sql"><![CDATA[IF OBJECT_ID('$schema_name$.$table_name$', 'U') IS NOT NULL
+	DROP TABLE $schema_name$.$table_name$
 GO
 
-IF DB_ID('$database_name$') IS NOT NULL
-BEGIN
-    ALTER DATABASE [$database_name$] SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
-    DROP DATABASE [$database_name$];
-END;
-GO
 $CURSOR$]]></Code>
     </Snippet>
   </CodeSnippet>

@@ -2,9 +2,9 @@
 <CodeSnippets>
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>DropTableValuedFunction</Title>
-      <Shortcut>DropTableValuedFunction</Shortcut>
-      <Description>Drop TableValuedFunction If Already Exists</Description>
+      <Title>DropStoredProcedure</Title>
+      <Shortcut>DropStoredProcedure</Shortcut>
+      <Description>Drop Stored Procedure If Already Exists</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
@@ -18,13 +18,13 @@
           <Default />
         </Literal>
         <Literal>
-          <ID>TableValuedFunction_name</ID>
+          <ID>procedure_name</ID>
           <ToolTip />
           <Default />
         </Literal>
       </Declarations>
-      <Code Language="sql"><![CDATA[IF OBJECT_ID('$schema_name$.$TableValuedFunction_name$', 'TF') IS NOT NULL
-	DROP TABLE $schema_name$.$TableValuedFunction_name$
+      <Code Language="sql"><![CDATA[IF OBJECT_ID('$schema_name$.$procedure_name$', 'P') IS NOT NULL
+	DROP PROCEDURE $schema_name$.$procedure_name$;
 GO
 
 $CURSOR$]]></Code>
