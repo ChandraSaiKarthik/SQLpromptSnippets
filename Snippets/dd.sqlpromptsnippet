@@ -4,15 +4,30 @@
     <Header>
       <Title>dd</Title>
       <Shortcut>dd</Shortcut>
-      <Description>Drop database</Description>
+      <Description>Drop Database</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
       </SnippetTypes>
     </Header>
     <Snippet>
-      <Declarations />
-      <Code Language="sql"><![CDATA[DROP DATABASE ]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>database_name</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[USE master;
+GO
+
+IF DB_ID('$database_name$') IS NOT NULL
+BEGIN
+    ALTER DATABASE [$database_name$] SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+    DROP DATABASE [$database_name$];
+END;
+GO
+$CURSOR$]]></Code>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>
