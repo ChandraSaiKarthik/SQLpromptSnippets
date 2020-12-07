@@ -2,9 +2,9 @@
 <CodeSnippets>
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>dd</Title>
-      <Shortcut>dd</Shortcut>
-      <Description>Drop Database</Description>
+      <Title>DropDatabase</Title>
+      <Shortcut>DropDatabase</Shortcut>
+      <Description>Drop Database If Exists</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
