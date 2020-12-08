@@ -4,7 +4,7 @@
     <Header>
       <Title>ConcatString</Title>
       <Shortcut>ConcatString</Shortcut>
-      <Description>Concatenate Column Values Into a Comma Separated String.</Description>
+      <Description>Concatenate Column Values Into a Comma Separated String (STUFF-CSV)</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
