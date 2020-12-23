@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>DropIndex</Title>
+      <Shortcut>DropIndex</Shortcut>
+      <Description>Drop Index If Already Exists</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>SchemaName</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>TableName</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>IndexName</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[IF EXISTS (SELECT name FROM sys.indexes WHERE object_id = OBJECT_ID(N'$SchemaName$.$TableName$') AND name = N'$IndexName$')
+	DROP INDEX $IndexName$ ON $SchemaName$.$TableName$;]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
