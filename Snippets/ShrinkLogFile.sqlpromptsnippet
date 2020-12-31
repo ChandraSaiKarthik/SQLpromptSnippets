@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>ShrinkLogFile</Title>
+      <Shortcut>ShrinkLogFile</Shortcut>
+      <Description>Shrink Database Log File</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>DatabaseName</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[USE $DatabaseName$;
+GO 
+
+ALTER DATABASE $DatabaseName$ SET RECOVERY SIMPLE WITH NO_WAIT;
+CHECKPOINT;
+
+DBCC SHRINKFILE(N'$DatabaseName$_log', 0 , TRUNCATEONLY);
+CHECKPOINT;]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
