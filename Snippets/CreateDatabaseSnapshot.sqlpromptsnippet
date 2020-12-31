@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>CreateDatabaseSnapshot</Title>
+      <Shortcut>CreateDatabaseSnapshot</Shortcut>
+      <Description>Create Database Snapshot</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>DatabaseName</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>SnapshotFileLocationPath</ID>
+          <ToolTip />
+          <Default>C:\MSSQLserver</Default>
+        </Literal>
+        <Literal>
+          <ID>Source_DatabaseName</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[CREATE DATABASE $DatabaseName$ 
+ON 
+    (
+    NAME = $DatabaseName$_data,
+    FILENAME = '$SnapshotFileLocationPath$\$DatabaseName$.ss'
+    )
+AS SNAPSHOT OF $Source_DatabaseName$
+GO]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
