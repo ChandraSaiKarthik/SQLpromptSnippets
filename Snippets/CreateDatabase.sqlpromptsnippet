@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>CreateDatabase</Title>
+      <Shortcut>CreateDatabase</Shortcut>
+      <Description>Create Database</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>DatabaseName</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>DataFileLocationPath</ID>
+          <ToolTip />
+          <Default>C:\MSSQLserver</Default>
+        </Literal>
+        <Literal>
+          <ID>LogFileLocationPath</ID>
+          <ToolTip />
+          <Default>C:\MSSQLserver</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[CREATE DATABASE $DatabaseName$
+ON PRIMARY -- or use FILEGROUP filegroup_name
+	( 
+		NAME = $DatabaseName$_data,
+		FILENAME = '$DataFileLocationPath$\$DatabaseName$_Data.mdf'
+	) --, and repeat as required
+LOG ON
+	(
+		NAME = $DatabaseName$_log,
+		FILENAME = '$LogFileLocationPath$\$DatabaseName$_Log.ldf'
+	) --, and repeat as required
+;
+GO]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
