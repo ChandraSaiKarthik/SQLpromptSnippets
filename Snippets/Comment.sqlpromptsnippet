@@ -20,7 +20,7 @@
       </Declarations>
       <Code Language="sql"><![CDATA[/* =============================================
 -- Author		: $USER$
--- Create date	: $DATE$ $TIME$
+-- Create Date	: $DATE$ $TIME$
 -- Database		: $DB$
 -- Description	: 
 -- History		:
