@@ -29,7 +29,10 @@
         </Literal>
       </Declarations>
       <Code Language="sql"><![CDATA[IF EXISTS (SELECT name FROM sys.indexes WHERE object_id = OBJECT_ID(N'$SchemaName$.$TableName$') AND name = N'$IndexName$')
-	DROP INDEX $IndexName$ ON $SchemaName$.$TableName$;]]></Code>
+	DROP INDEX $IndexName$ ON $SchemaName$.$TableName$;
+GO
+
+$CURSOR$]]></Code>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>
