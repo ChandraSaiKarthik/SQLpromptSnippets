@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>DropTempTable</Title>
+      <Shortcut>DropTempTable</Shortcut>
+      <Description>Drop Temp Table If Already Exists</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>table_name</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[IF OBJECT_ID('tempdb..#$table_name$') IS NOT NULL
+	DROP TABLE #$table_name$;
+GO
+
+$CURSOR$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
