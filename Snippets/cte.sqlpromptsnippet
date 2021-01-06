@@ -23,7 +23,7 @@
 $SELECTEDTEXT$
 )
 SELECT $CURSOR$
-FROM $cte_name$]]></Code>
+FROM $cte_name$;]]></Code>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>

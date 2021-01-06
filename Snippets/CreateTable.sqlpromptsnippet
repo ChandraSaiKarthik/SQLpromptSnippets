@@ -42,7 +42,7 @@
 (
 	$column_name$ $data_type$ $null$,
 	CONSTRAINT PK_$column_name$ PRIMARY KEY ($column_name$)
-)
+);
 GO]]></Code>
     </Snippet>
   </CodeSnippet>

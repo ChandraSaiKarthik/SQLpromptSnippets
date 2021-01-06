@@ -24,7 +24,7 @@
         </Literal>
       </Declarations>
       <Code Language="sql"><![CDATA[IF OBJECT_ID('$schema_name$.$InlineTableValuedFunction_name$', 'IF') IS NOT NULL
-	DROP TABLE $schema_name$.$InlineTableValuedFunction_name$
+	DROP TABLE $schema_name$.$InlineTableValuedFunction_name$;
 GO
 
 $CURSOR$]]></Code>

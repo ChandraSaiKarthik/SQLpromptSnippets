@@ -24,7 +24,7 @@
         </Literal>
       </Declarations>
       <Code Language="sql"><![CDATA[IF OBJECT_ID('$schema_name$.$table_name$', 'U') IS NOT NULL
-	DROP TABLE $schema_name$.$table_name$
+	DROP TABLE $schema_name$.$table_name$;
 GO
 
 $CURSOR$]]></Code>
