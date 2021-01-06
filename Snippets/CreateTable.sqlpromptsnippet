@@ -37,12 +37,17 @@
           <ToolTip />
           <Default />
         </Literal>
+        <Literal>
+          <ID>filegroup_name</ID>
+          <ToolTip />
+          <Default>PRIMARY</Default>
+        </Literal>
       </Declarations>
       <Code Language="sql"><![CDATA[CREATE TABLE $schema_name$.$table_name$
 (
 	$column_name$ $data_type$ $null$,
 	CONSTRAINT PK_$column_name$ PRIMARY KEY ($column_name$)
-);
+)ON $filegroup_name$;
 GO]]></Code>
     </Snippet>
   </CodeSnippet>
