@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>CreateSchema</Title>
+      <Shortcut>CreateSchema</Shortcut>
+      <Description>Create Schema</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>schema_name</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[IF EXISTS (SELECT * FROM sys.schemas WHERE name = N'$schema_name$')
+	DROP SCHEMA $schema_name$;
+GO
+
+CREATE SCHEMA $schema_name$;]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
