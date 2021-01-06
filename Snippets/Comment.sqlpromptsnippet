@@ -13,20 +13,21 @@
     <Snippet>
       <Declarations>
         <Literal>
-          <ID>DB</ID>
+          <ID>ScriptName</ID>
           <ToolTip />
           <Default />
         </Literal>
       </Declarations>
-      <Code Language="sql"><![CDATA[/* =============================================
+      <Code Language="sql"><![CDATA[/* =================================================================================================
 -- Author		: $USER$
 -- Create Date	: $DATE$ $TIME$
--- Database		: $DB$
--- Description	: 
+-- Database		: $DBNAME$
+-- Script		: $ScriptName$
+-- Description	: $CURSOR$
 -- History		:
-============================================= */
+================================================================================================= */
 
-$CURSOR$]]></Code>
+]]></Code>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>
