@@ -1,0 +1,13 @@
+{
+  "id": "833ae3c5-117d-4d39-ac1e-1a3dc568827e",
+  "name": "CreateSchema",
+  "prefix": "CreateSchema",
+  "description": "Create Schema",
+  "body": "IF EXISTS (SELECT * FROM sys.schemas WHERE name = N'$schema_name$')\n\tDROP SCHEMA $schema_name$;\nGO\n\nCREATE SCHEMA $schema_name$;\nGO",
+  "placeholders": [
+    {
+      "name": "schema_name",
+      "defaultValue": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "24ee6fb3-d2d2-494e-b1a1-e2e12e9fe191",
+  "name": "CreateDatabase",
+  "prefix": "CreateDatabase",
+  "description": "Create Database",
+  "body": "CREATE DATABASE $DatabaseName$\nON PRIMARY -- or use FILEGROUP filegroup_name\n\t( \n\t\tNAME = $DatabaseName$_data,\n\t\tFILENAME = '$DataFileLocationPath$\\$DatabaseName$_Data.mdf'\n\t) --, and repeat as required\nLOG ON\n\t(\n\t\tNAME = $DatabaseName$_log,\n\t\tFILENAME = '$LogFileLocationPath$\\$DatabaseName$_Log.ldf'\n\t) --, and repeat as required\n;\nGO",
+  "placeholders": [
+    {
+      "name": "DatabaseName",
+      "defaultValue": ""
+    },
+    {
+      "name": "DataFileLocationPath",
+      "defaultValue": "C:\\MSSQLserver"
+    },
+    {
+      "name": "LogFileLocationPath",
+      "defaultValue": "C:\\MSSQLserver"
+    }
+  ]
+}

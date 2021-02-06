@@ -1,0 +1,29 @@
+{
+  "id": "28630416-08fb-461e-affe-04ad6d3a3e97",
+  "name": "DeclareTableVariable",
+  "prefix": "DeclareTableVariable",
+  "description": "Declare Table Variable",
+  "body": "DECLARE @$table_name$ TABLE\n(\n\t$column_name1$ $data_type1$ PRIMARY KEY,\n\t$column_name2$ $data_type2$\n);\n$CURSOR$",
+  "placeholders": [
+    {
+      "name": "table_name",
+      "defaultValue": ""
+    },
+    {
+      "name": "column_name1",
+      "defaultValue": ""
+    },
+    {
+      "name": "data_type1",
+      "defaultValue": ""
+    },
+    {
+      "name": "column_name2",
+      "defaultValue": ""
+    },
+    {
+      "name": "data_type2",
+      "defaultValue": ""
+    }
+  ]
+}

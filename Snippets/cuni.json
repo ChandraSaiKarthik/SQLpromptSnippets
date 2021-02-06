@@ -1,0 +1,21 @@
+{
+  "id": "93217a61-ec72-44cf-9113-66b83a230cb1",
+  "name": "cuni",
+  "prefix": "cuni",
+  "description": "Create unique nonclustered index",
+  "body": "CREATE UNIQUE NONCLUSTERED INDEX $index_name$\nON $owner$ ( $column$ )\n--WITH PAD_INDEX\n--    | FILLFACTOR = fillfactor\n--    | IGNORE_DUP_KEY\n--    | DROP_EXISTING\n--    | STATISTICS_NORECOMPUTE\n--    | SORT_IN_TEMPDB, .. as required\n-- ON filegroup\nGO\n",
+  "placeholders": [
+    {
+      "name": "owner",
+      "defaultValue": "[schema].[index_name]"
+    },
+    {
+      "name": "column",
+      "defaultValue": ""
+    },
+    {
+      "name": "index_name",
+      "defaultValue": ""
+    }
+  ]
+}

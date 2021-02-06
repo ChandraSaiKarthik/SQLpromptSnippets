@@ -1,0 +1,29 @@
+{
+  "id": "b8bf4611-2dbd-4c5d-81b4-c7e4df844d68",
+  "name": "CreateTempTable",
+  "prefix": "CreateTempTable",
+  "description": "Create Temporary Table.",
+  "body": "IF OBJECT_ID('tempdb.dbo.#$table_name$') IS NOT NULL\n\tDROP TABLE #$table_name$;\nGO\n\nCREATE TABLE #$table_name$\n(\n\t$column_name1$ $data_type1$ PRIMARY KEY,\n\t$column_name2$ $data_type2$\n);\n$CURSOR$",
+  "placeholders": [
+    {
+      "name": "table_name",
+      "defaultValue": ""
+    },
+    {
+      "name": "column_name1",
+      "defaultValue": ""
+    },
+    {
+      "name": "data_type1",
+      "defaultValue": ""
+    },
+    {
+      "name": "column_name2",
+      "defaultValue": ""
+    },
+    {
+      "name": "data_type2",
+      "defaultValue": ""
+    }
+  ]
+}

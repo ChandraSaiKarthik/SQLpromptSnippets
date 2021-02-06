@@ -1,0 +1,8 @@
+{
+  "id": "9b3dd4a7-b2b0-422b-8720-2f4fb66025f4",
+  "name": "gb",
+  "prefix": "gb",
+  "description": "GROUP BY fragment",
+  "body": "GROUP BY ",
+  "placeholders": []
+}

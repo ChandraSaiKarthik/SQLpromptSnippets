@@ -1,0 +1,21 @@
+{
+  "id": "c3b22c13-8a57-435d-9f4a-b8169d8128f7",
+  "name": "AddConstraint",
+  "prefix": "AddConstraint",
+  "description": "Add Constraint",
+  "body": "ALTER TABLE $schema_name$.$table_name$\n\tADD CONSTRAINT CK_$table_name$_$column_name$ \n\tCHECK ($column_name$ > 0)\nGO",
+  "placeholders": [
+    {
+      "name": "schema_name",
+      "defaultValue": "dbo"
+    },
+    {
+      "name": "table_name",
+      "defaultValue": ""
+    },
+    {
+      "name": "column_name",
+      "defaultValue": ""
+    }
+  ]
+}

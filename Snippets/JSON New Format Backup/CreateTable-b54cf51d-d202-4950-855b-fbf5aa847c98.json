@@ -1,0 +1,33 @@
+{
+  "id": "b54cf51d-d202-4950-855b-fbf5aa847c98",
+  "name": "CreateTable",
+  "prefix": "CreateTable",
+  "description": "Create Table",
+  "body": "CREATE TABLE $schema_name$.$table_name$\n(\n\t$column_name$ $data_type$ $null$,\n\tCONSTRAINT PK_$column_name$ PRIMARY KEY ($column_name$)\n)ON $filegroup_name$;\nGO",
+  "placeholders": [
+    {
+      "name": "schema_name",
+      "defaultValue": "dbo"
+    },
+    {
+      "name": "table_name",
+      "defaultValue": ""
+    },
+    {
+      "name": "column_name",
+      "defaultValue": ""
+    },
+    {
+      "name": "data_type",
+      "defaultValue": ""
+    },
+    {
+      "name": "null",
+      "defaultValue": ""
+    },
+    {
+      "name": "filegroup_name",
+      "defaultValue": "PRIMARY"
+    }
+  ]
+}

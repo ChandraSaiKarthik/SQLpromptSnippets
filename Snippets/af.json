@@ -1,0 +1,8 @@
+{
+  "id": "4472cf7d-0253-4bb1-87fe-4ab938259161",
+  "name": "af",
+  "prefix": "af",
+  "description": "ALTER FUNCTION fragment",
+  "body": "ALTER FUNCTION ",
+  "placeholders": []
+}

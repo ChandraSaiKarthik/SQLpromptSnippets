@@ -1,0 +1,13 @@
+{
+  "id": "bfb1f0b6-16c4-4f04-bcf9-3ad56e726c8f",
+  "name": "ShrinkLogFile",
+  "prefix": "ShrinkLogFile",
+  "description": "Shrink Database Log File",
+  "body": "USE $DatabaseName$;\nGO \n\nALTER DATABASE $DatabaseName$ SET RECOVERY SIMPLE WITH NO_WAIT;\nCHECKPOINT;\n\nDBCC SHRINKFILE(N'$DatabaseName$_log', 0 , TRUNCATEONLY);\nCHECKPOINT;",
+  "placeholders": [
+    {
+      "name": "DatabaseName",
+      "defaultValue": ""
+    }
+  ]
+}

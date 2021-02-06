@@ -1,0 +1,8 @@
+{
+  "id": "4211d096-4e16-42dc-b23c-21aa1f989c9b",
+  "name": "WhoIsActiveExtended",
+  "prefix": "WhoIsActiveExtended",
+  "description": "WhoIsActive Extended",
+  "body": "EXEC master.dbo.sp_WhoIsActive --\n    @get_outer_command = 1,\n    @get_plans = 1,\n    @get_transaction_info = 1,\n    @get_additional_info = 1;",
+  "placeholders": []
+}

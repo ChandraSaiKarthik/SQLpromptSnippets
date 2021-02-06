@@ -1,0 +1,8 @@
+{
+  "id": "24e32dac-577a-477c-ab89-29f5806d76f9",
+  "name": "foj",
+  "prefix": "foj",
+  "description": "FULL OUTER JOIN fragment",
+  "body": "FULL OUTER JOIN ",
+  "placeholders": []
+}

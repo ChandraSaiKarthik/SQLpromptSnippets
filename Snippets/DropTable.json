@@ -1,0 +1,17 @@
+{
+  "id": "2d8c2725-2bec-4972-89bd-2cb3f4fc7a58",
+  "name": "DropTable",
+  "prefix": "DropTable",
+  "description": "Drop Table If Already Exists",
+  "body": "IF OBJECT_ID('$schema_name$.$table_name$', 'U') IS NOT NULL\n\tDROP TABLE $schema_name$.$table_name$;\nGO\n\n$CURSOR$",
+  "placeholders": [
+    {
+      "name": "schema_name",
+      "defaultValue": ""
+    },
+    {
+      "name": "table_name",
+      "defaultValue": ""
+    }
+  ]
+}

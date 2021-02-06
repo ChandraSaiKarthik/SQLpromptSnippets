@@ -1,0 +1,8 @@
+{
+  "id": "b012b792-7c31-43f9-81fa-47fe53a59d35",
+  "name": "fon",
+  "prefix": "fon",
+  "description": "Enable formatting from this point onwards",
+  "body": "--SQL Prompt Formatting On",
+  "placeholders": []
+}

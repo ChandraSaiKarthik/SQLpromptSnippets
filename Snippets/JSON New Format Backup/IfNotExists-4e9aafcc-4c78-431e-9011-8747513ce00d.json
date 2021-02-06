@@ -1,0 +1,21 @@
+{
+  "id": "4e9aafcc-4c78-431e-9011-8747513ce00d",
+  "name": "IfNotExists",
+  "prefix": "IfNotExists",
+  "description": "If Not Exists",
+  "body": "IF NOT EXISTS\n(\n\tSELECT 1\n\tFROM $schema_name$.$table_name$\n\tWHERE 1 = 1 -- AND $filter$\n)\nBEGIN\n\n\tPRINT 'Not Exists'\n\nEND",
+  "placeholders": [
+    {
+      "name": "schema_name",
+      "defaultValue": ""
+    },
+    {
+      "name": "table_name",
+      "defaultValue": ""
+    },
+    {
+      "name": "filter",
+      "defaultValue": ""
+    }
+  ]
+}

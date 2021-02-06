@@ -1,0 +1,45 @@
+{
+  "id": "13832a4f-7991-4fdf-a3da-42860d200356",
+  "name": "CreateCursor",
+  "prefix": "CreateCursor",
+  "description": "Create Cursor Syntax",
+  "body": "DECLARE @$variable1$ $data_type1$,\n\t\t@$variable2$ $data_type2$;\t\t\t\t\t/* Declare All Required Variables */\n\nDECLARE $cursor_name$ CURSOR\t\t\t\t\t\t/* Declare Cursor Name */\n--[LOCAL | GLOBAL]\t\t\t\t\t\t\t\t/* Define Cursor Scope */\n--[FORWARD_ONLY | SCROLL]\t\t\t\t\t\t/* Define Movement Direction of Cursor */\n--[KEYSET | DYNAMIC | STATIC | FAST_FORWARD]\t/* Define Basic Type of Cursor */\n--[SCROLL_LOCKS | OPTIMISTIC | READ_ONLY]\t\t/* Define Locks */\nFOR\n(\n\tSELECT $column_name1$, $column_name2$\n\tFROM $schema_name$.$table_name$\n\tWHERE 1 = 1\n);\n\nOPEN $cursor_name$;\t\t\t\t\t\t\t\t\t\t\t\t/* Open Cursor */\n\nFETCH NEXT FROM $cursor_name$ INTO @$variable1$, @$variable2$;\t\t/* Fetch Data From Cursor */\n\nWHILE @@FETCH_STATUS = 0\nBEGIN\n\n\tSELECT @$variable1$, @$variable2$;\n\n\tFETCH NEXT FROM $cursor_name$ INTO @$variable1$, @$variable2$;\t/* Fetch Next Data From Cursor */\n\nEND;\n\nCLOSE $cursor_name$;\t\t\t\t\t\t\t\t\t\t\t\t/* Close The Cursor */\nDEALLOCATE $cursor_name$;\t\t\t\t\t\t\t\t\t\t\t/* DeAllocate all Resources and Memory */  ",
+  "placeholders": [
+    {
+      "name": "variable1",
+      "defaultValue": ""
+    },
+    {
+      "name": "data_type1",
+      "defaultValue": ""
+    },
+    {
+      "name": "variable2",
+      "defaultValue": ""
+    },
+    {
+      "name": "data_type2",
+      "defaultValue": ""
+    },
+    {
+      "name": "cursor_name",
+      "defaultValue": ""
+    },
+    {
+      "name": "column_name1",
+      "defaultValue": ""
+    },
+    {
+      "name": "column_name2",
+      "defaultValue": ""
+    },
+    {
+      "name": "schema_name",
+      "defaultValue": ""
+    },
+    {
+      "name": "table_name",
+      "defaultValue": ""
+    }
+  ]
+}

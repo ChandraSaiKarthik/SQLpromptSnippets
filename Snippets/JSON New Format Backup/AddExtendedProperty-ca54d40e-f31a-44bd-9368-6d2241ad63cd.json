@@ -1,0 +1,41 @@
+{
+  "id": "ca54d40e-f31a-44bd-9368-6d2241ad63cd",
+  "name": "AddExtendedProperty",
+  "prefix": "AddExtendedProperty",
+  "description": "Add Description to a Specific Object.",
+  "body": "EXEC sys.sp_addextendedproperty --\n    @name = N'$ExtPrp_Name$',\n    @value = N'$ExtPrp_Value$',\n    @level0type = N'$L0Type$', -- SCHEMA | FILEGROUP | USER | DDL TRIGGER | NULL\n    @level0name = N'$L0Name$',\n    @level1type = N'$L1Type$', -- TABLE | VIEW | FUNCTION | PROCEDURE | NULL\n    @level1name = N'$L1Name$',\n    @level2type = N'$L2Type$', -- COLUMN | CONSTRAINT | INDEX | PARAMETER | DML TRIGGER | NULL\n    @level2name = N'$L2Name$';\nGO",
+  "placeholders": [
+    {
+      "name": "ExtPrp_Name",
+      "defaultValue": ""
+    },
+    {
+      "name": "ExtPrp_Value",
+      "defaultValue": ""
+    },
+    {
+      "name": "L0Type",
+      "defaultValue": ""
+    },
+    {
+      "name": "L0Name",
+      "defaultValue": ""
+    },
+    {
+      "name": "L1Type",
+      "defaultValue": ""
+    },
+    {
+      "name": "L1Name",
+      "defaultValue": ""
+    },
+    {
+      "name": "L2Type",
+      "defaultValue": ""
+    },
+    {
+      "name": "L2Name",
+      "defaultValue": ""
+    }
+  ]
+}

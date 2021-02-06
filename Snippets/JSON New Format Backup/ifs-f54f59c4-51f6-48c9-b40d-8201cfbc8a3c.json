@@ -1,0 +1,13 @@
+{
+  "id": "f54f59c4-51f6-48c9-b40d-8201cfbc8a3c",
+  "name": "ifs",
+  "prefix": "ifs",
+  "description": "IF fragment",
+  "body": "IF $condition$\nBEGIN\n    $SELECTEDTEXT$$CURSOR$\nEND",
+  "placeholders": [
+    {
+      "name": "condition",
+      "defaultValue": "1 = 1"
+    }
+  ]
+}

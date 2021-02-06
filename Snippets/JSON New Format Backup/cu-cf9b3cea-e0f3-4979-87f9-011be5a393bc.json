@@ -1,0 +1,8 @@
+{
+  "id": "cf9b3cea-e0f3-4979-87f9-011be5a393bc",
+  "name": "cu",
+  "prefix": "cu",
+  "description": "Create database user",
+  "body": "CREATE USER $CURSOR$\nFOR /* FROM */ LOGIN /* login_name */\n--\tCERTIFICATE certificate_name\n--\tASYMMETRIC KEY key_name\n--\tWITHOUT LOGIN\n--\tWITH DEFAULT_SCHEMA = schema_name\nGO\n",
+  "placeholders": []
+}

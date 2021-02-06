@@ -1,0 +1,29 @@
+{
+  "id": "60d4ed64-ebe1-477e-9d98-9c7d43ae71e4",
+  "name": "ConcatString",
+  "prefix": "ConcatString",
+  "description": "Concatenate Column Values Into a Comma Separated String (STUFF-CSV)",
+  "body": "SELECT STUFF(\n\t\t\t\t((SELECT ', ' + $table_alias$.$column_name$\n\t\t\t\tFROM $schema_name$.$table_name$ AS $table_alias$\n\t\t\t\tFOR XML PATH(''), TYPE).value('.', 'NVARCHAR(MAX)')), -- CSV Expression will Append to Initial Expression\n\t\t\t\t1, -- Initial Expression Start Position\n\t\t\t\t2, -- Replacement Length\n\t\t\t\t'' -- Initial Expression\n\t\t\t) AS $column_alias$",
+  "placeholders": [
+    {
+      "name": "table_alias",
+      "defaultValue": "T"
+    },
+    {
+      "name": "column_name",
+      "defaultValue": ""
+    },
+    {
+      "name": "schema_name",
+      "defaultValue": "dbo"
+    },
+    {
+      "name": "table_name",
+      "defaultValue": ""
+    },
+    {
+      "name": "column_alias",
+      "defaultValue": ""
+    }
+  ]
+}

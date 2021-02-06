@@ -1,0 +1,17 @@
+{
+  "id": "d0c0ab3c-5755-49d1-aff8-1c6759497504",
+  "name": "DropTrigger",
+  "prefix": "DropTrigger",
+  "description": "Drop Trigger If Already Exists",
+  "body": "IF OBJECT_ID('$schema_name$.$trigger_name$', 'TR') IS NOT NULL\n\tDROP TRIGGER $schema_name$.$trigger_name$;\nGO\n\n$CURSOR$",
+  "placeholders": [
+    {
+      "name": "schema_name",
+      "defaultValue": ""
+    },
+    {
+      "name": "trigger_name",
+      "defaultValue": ""
+    }
+  ]
+}
