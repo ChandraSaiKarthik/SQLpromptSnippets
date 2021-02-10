@@ -1,0 +1,288 @@
+C:\GitHub\SQLpromptSnippets\Snippets\AddColumn-e934490a-dd61-4780-87a1-903c52a98694.json 
+C:\GitHub\SQLpromptSnippets\Snippets\AddConstraint-c3b22c13-8a57-435d-9f4a-b8169d8128f7.json 
+C:\GitHub\SQLpromptSnippets\Snippets\AddExtendedProperty-ca54d40e-f31a-44bd-9368-6d2241ad63cd.json 
+C:\GitHub\SQLpromptSnippets\Snippets\af-4472cf7d-0253-4bb1-87fe-4ab938259161.json 
+C:\GitHub\SQLpromptSnippets\Snippets\ap-2699e1ca-e91f-4f4d-be1c-71ac5a441039.json 
+C:\GitHub\SQLpromptSnippets\Snippets\at-c5318be3-3085-4a99-a422-42e364e906e9.json 
+C:\GitHub\SQLpromptSnippets\Snippets\atac-be5fb3ae-591d-48af-98b7-c1f5a976cfa9.json 
+C:\GitHub\SQLpromptSnippets\Snippets\atd-b6d07dc3-ddae-4590-842b-fa3ca0ac9f87.json 
+C:\GitHub\SQLpromptSnippets\Snippets\atdc-97bbbf98-f443-4a0a-a600-6a720e7425df.json 
+C:\GitHub\SQLpromptSnippets\Snippets\atdt-5d880080-7081-4fb5-abc3-d6bbb42d021b.json 
+C:\GitHub\SQLpromptSnippets\Snippets\atdta-2198821f-db9d-4db6-a5b2-fb04ef947b9d.json 
+C:\GitHub\SQLpromptSnippets\Snippets\atet-4a39a9f4-05fe-490f-8235-dcb8beccd8a0.json 
+C:\GitHub\SQLpromptSnippets\Snippets\ateta-30222d73-c67a-419d-81a3-db42f0ea98ba.json 
+C:\GitHub\SQLpromptSnippets\Snippets\be-66252cbd-6dc0-49e5-8f9d-2c6046917b5b.json 
+C:\GitHub\SQLpromptSnippets\Snippets\bt-1513be3c-358d-4491-a3f1-6f733f6f5f67.json 
+C:\GitHub\SQLpromptSnippets\Snippets\case-71e9237d-2d80-484e-9520-0b54a0f56fbd.json 
+C:\GitHub\SQLpromptSnippets\Snippets\cci-b79ccb28-b13c-4356-bff3-52098d783411.json 
+C:\GitHub\SQLpromptSnippets\Snippets\chk-a4abf849-a33d-4ba6-8956-fc99914e7b0d.json 
+C:\GitHub\SQLpromptSnippets\Snippets\citf-262bab01-5eb9-49d4-8c92-518bd57a847b.json 
+C:\GitHub\SQLpromptSnippets\Snippets\cj-1710ffeb-77de-487d-98c1-b16164ccb2c5.json 
+C:\GitHub\SQLpromptSnippets\Snippets\cl-90826a06-43c0-4d18-bde9-3137ac01a0ac.json 
+C:\GitHub\SQLpromptSnippets\Snippets\clrp-b7bf0909-b285-42fa-905f-12b97683ad02.json 
+C:\GitHub\SQLpromptSnippets\Snippets\cni-dec77864-5389-47fa-8838-30eac04a76c0.json 
+C:\GitHub\SQLpromptSnippets\Snippets\Comment-fbbee314-28e6-4994-8c87-d9a7c71230da.json 
+C:\GitHub\SQLpromptSnippets\Snippets\ConcatString-60d4ed64-ebe1-477e-9d98-9c7d43ae71e4.json 
+C:\GitHub\SQLpromptSnippets\Snippets\cp-cd33c7b7-e72a-4981-a348-c913e98aec88.json 
+C:\GitHub\SQLpromptSnippets\Snippets\CreateCursor-13832a4f-7991-4fdf-a3da-42860d200356.json 
+C:\GitHub\SQLpromptSnippets\Snippets\CreateDatabase-24ee6fb3-d2d2-494e-b1a1-e2e12e9fe191.json 
+C:\GitHub\SQLpromptSnippets\Snippets\CreateDatabaseSnapshot-1a264945-bbf8-4514-80c2-246369a5c425.json 
+C:\GitHub\SQLpromptSnippets\Snippets\CreateSchema-833ae3c5-117d-4d39-ac1e-1a3dc568827e.json 
+C:\GitHub\SQLpromptSnippets\Snippets\CreateTable-b54cf51d-d202-4950-855b-fbf5aa847c98.json 
+C:\GitHub\SQLpromptSnippets\Snippets\CreateTempTable-b8bf4611-2dbd-4c5d-81b4-c7e4df844d68.json 
+C:\GitHub\SQLpromptSnippets\Snippets\csf-cfe027d3-ea0b-45c9-bd47-86eb3eb709b1.json 
+C:\GitHub\SQLpromptSnippets\Snippets\cte-0beed14a-75a5-4ef3-b552-92d3c36ae95c.json 
+C:\GitHub\SQLpromptSnippets\Snippets\ctf-4314c912-fd18-422a-a02e-3f55c613bcee.json 
+C:\GitHub\SQLpromptSnippets\Snippets\ctr-00a9c073-f3c0-4bcd-948a-c1f54c4d85ac.json 
+C:\GitHub\SQLpromptSnippets\Snippets\cu-cf9b3cea-e0f3-4979-87f9-011be5a393bc.json 
+C:\GitHub\SQLpromptSnippets\Snippets\cuci-b2a48c49-8fc4-49bb-ac89-f81d4ff777c7.json 
+C:\GitHub\SQLpromptSnippets\Snippets\cuni-93217a61-ec72-44cf-9113-66b83a230cb1.json 
+C:\GitHub\SQLpromptSnippets\Snippets\cv-6bd92d24-5118-4267-b6d1-2e6412cc59da.json 
+C:\GitHub\SQLpromptSnippets\Snippets\DeclareTableVariable-28630416-08fb-461e-affe-04ad6d3a3e97.json 
+C:\GitHub\SQLpromptSnippets\Snippets\df-ab79500a-b7a3-4804-8a22-e8eece537899.json 
+C:\GitHub\SQLpromptSnippets\Snippets\dl-30e110a9-1989-4fa4-a796-b4693ae59028.json 
+C:\GitHub\SQLpromptSnippets\Snippets\DropColumn-b6d07dc3-ddae-4590-842b-fa3ca0ac9f87.json 
+C:\GitHub\SQLpromptSnippets\Snippets\DropDatabase-b76f1e09-d700-4654-a844-36c2d111d35b.json 
+C:\GitHub\SQLpromptSnippets\Snippets\DropIndex-c12dd62b-8b9e-47ed-8f19-dfdfa509cc27.json 
+C:\GitHub\SQLpromptSnippets\Snippets\DropInlineTableValuedFunction-1df84dd5-c5d4-401e-8395-beae05efe6a2.json 
+C:\GitHub\SQLpromptSnippets\Snippets\DropScalarFunction-17580f04-b8c5-4dff-ae50-f18c185ba8ef.json 
+C:\GitHub\SQLpromptSnippets\Snippets\DropSchema-43c4eb36-9473-439b-876b-2dd1dfd53508.json 
+C:\GitHub\SQLpromptSnippets\Snippets\DropStoredProcedure-989bdb39-9a43-4370-bc3e-0c86d9a5cdf5.json 
+C:\GitHub\SQLpromptSnippets\Snippets\DropTable-2d8c2725-2bec-4972-89bd-2cb3f4fc7a58.json 
+C:\GitHub\SQLpromptSnippets\Snippets\DropTableValuedFunction-e2f68f37-cc10-4762-8898-c1940543ed2f.json 
+C:\GitHub\SQLpromptSnippets\Snippets\DropTempTable-8e75b7da-0780-4956-8a82-4c9673ea3944.json 
+C:\GitHub\SQLpromptSnippets\Snippets\DropTrigger-d0c0ab3c-5755-49d1-aff8-1c6759497504.json 
+C:\GitHub\SQLpromptSnippets\Snippets\DropView-9330471b-73ac-4c1d-b169-5296aab10b2f.json 
+C:\GitHub\SQLpromptSnippets\Snippets\du-407a5bb8-c3df-43be-87ad-3bbb7e19dedd.json 
+C:\GitHub\SQLpromptSnippets\Snippets\DynamicSQL-85bd4794-dc85-4b9a-a945-628be7b6c8a9.json 
+C:\GitHub\SQLpromptSnippets\Snippets\eata-f2da7e08-a23c-4925-ad4e-dd219f83e864.json 
+C:\GitHub\SQLpromptSnippets\Snippets\err-3e2a8501-fd4a-4bfb-aeec-3f8c5635c590.json 
+C:\GitHub\SQLpromptSnippets\Snippets\fj-07374c16-2bc4-4a7c-8f6e-9a7772d9ea5d.json 
+C:\GitHub\SQLpromptSnippets\Snippets\foff-13d20ba5-beed-455d-9fbb-25458fd7b2ab.json 
+C:\GitHub\SQLpromptSnippets\Snippets\foj-24e32dac-577a-477c-ab89-29f5806d76f9.json 
+C:\GitHub\SQLpromptSnippets\Snippets\fon-b012b792-7c31-43f9-81fa-47fe53a59d35.json 
+C:\GitHub\SQLpromptSnippets\Snippets\gb-9b3dd4a7-b2b0-422b-8720-2f4fb66025f4.json 
+C:\GitHub\SQLpromptSnippets\Snippets\IfExists-b48663de-27ba-4636-a554-14f51d26518b.json 
+C:\GitHub\SQLpromptSnippets\Snippets\IfNotExists-4e9aafcc-4c78-431e-9011-8747513ce00d.json 
+C:\GitHub\SQLpromptSnippets\Snippets\ifs-f54f59c4-51f6-48c9-b40d-8201cfbc8a3c.json 
+C:\GitHub\SQLpromptSnippets\Snippets\ii-22f0f0f3-ce09-48da-a8c6-3663cef93c1f.json 
+C:\GitHub\SQLpromptSnippets\Snippets\ij-fe2d03e7-4f87-42fc-a190-1d87c63911ee.json 
+C:\GitHub\SQLpromptSnippets\Snippets\is-a73a92ab-fadd-4b50-b60a-14addc0126b5.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup 
+C:\GitHub\SQLpromptSnippets\Snippets\lj-317a0ac8-6206-47aa-8af3-f597a45f0718.json 
+C:\GitHub\SQLpromptSnippets\Snippets\loj-636d7778-166d-4eb1-951a-183563353011.json 
+C:\GitHub\SQLpromptSnippets\Snippets\mro-a629af86-6907-483e-9f68-ea9a674028a9.json 
+C:\GitHub\SQLpromptSnippets\Snippets\ob-e4992ffe-8ec0-46ae-ba2b-d24ecfd98e90.json 
+C:\GitHub\SQLpromptSnippets\Snippets\PrintInstantly-4efc2b05-6742-4104-9539-a535e3a2d95e.json 
+C:\GitHub\SQLpromptSnippets\Snippets\ReadErrorLog-a7026fff-e2f8-4d12-9bf0-4ed2c81ca95f.json 
+C:\GitHub\SQLpromptSnippets\Snippets\Renaming the Files for json format.sql 
+C:\GitHub\SQLpromptSnippets\Snippets\rj-a329a463-a666-4b9d-b10b-ba4040507b8d.json 
+C:\GitHub\SQLpromptSnippets\Snippets\roj-64d08c25-52ff-4fe1-b988-f1c6260ffa86.json 
+C:\GitHub\SQLpromptSnippets\Snippets\rt-8c090111-2fab-4578-a4a0-d0adcbe1fadf.json 
+C:\GitHub\SQLpromptSnippets\Snippets\san-0ba3fc29-31d5-47c7-98d3-645fe8f7aaf3.json 
+C:\GitHub\SQLpromptSnippets\Snippets\scf-bd5248b3-83a4-482e-a59f-11d02b544678.json 
+C:\GitHub\SQLpromptSnippets\Snippets\ShrinkLogFile-bfb1f0b6-16c4-4f04-bcf9-3ad56e726c8f.json 
+C:\GitHub\SQLpromptSnippets\Snippets\sph-4c258da3-faa1-439a-9a03-31eaff3d3775.json 
+C:\GitHub\SQLpromptSnippets\Snippets\spt-6317d9c9-a238-4465-9a74-fcc38ec7a1da.json 
+C:\GitHub\SQLpromptSnippets\Snippets\sqi-020c4a58-6c46-4f48-9397-3458f88437a8.json 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup 
+C:\GitHub\SQLpromptSnippets\Snippets\ssf-7273c519-a471-4736-aed1-05c0a4d26633.json 
+C:\GitHub\SQLpromptSnippets\Snippets\st100-cbf0200b-0b1e-4de6-8e64-6cc668d2f532.json 
+C:\GitHub\SQLpromptSnippets\Snippets\StartJob-e4ab4494-6cc9-4ffb-b48f-8685cf8bd95c.json 
+C:\GitHub\SQLpromptSnippets\Snippets\sxa-f609b486-d7b5-4a31-8d22-b8722f086842.json 
+C:\GitHub\SQLpromptSnippets\Snippets\tc-2f16ef90-2025-4861-b830-8691215b2497.json 
+C:\GitHub\SQLpromptSnippets\Snippets\timings-1bb4b796-1e0f-47a1-b6ab-ff2f5999dcd8.json 
+C:\GitHub\SQLpromptSnippets\Snippets\tvc-b3a0b4f6-65c3-493d-9da2-81c29387fc63.json 
+C:\GitHub\SQLpromptSnippets\Snippets\w2-223d1bce-9c6d-45c0-b0d0-8347bd350b7d.json 
+C:\GitHub\SQLpromptSnippets\Snippets\WhoIsActiveExtended-4211d096-4e16-42dc-b23c-21aa1f989c9b.json 
+C:\GitHub\SQLpromptSnippets\Snippets\xpfd-bcc231c9-5193-4864-b1dc-27837c8e12d9.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\AddColumn-e934490a-dd61-4780-87a1-903c52a98694.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\AddConstraint-c3b22c13-8a57-435d-9f4a-b8169d8128f7.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\AddExtendedProperty-ca54d40e-f31a-44bd-9368-6d2241ad63cd.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\af-4472cf7d-0253-4bb1-87fe-4ab938259161.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\ap-2699e1ca-e91f-4f4d-be1c-71ac5a441039.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\at-c5318be3-3085-4a99-a422-42e364e906e9.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\atac-be5fb3ae-591d-48af-98b7-c1f5a976cfa9.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\atd-b6d07dc3-ddae-4590-842b-fa3ca0ac9f87.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\atdc-97bbbf98-f443-4a0a-a600-6a720e7425df.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\atdt-5d880080-7081-4fb5-abc3-d6bbb42d021b.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\atdta-2198821f-db9d-4db6-a5b2-fb04ef947b9d.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\atet-4a39a9f4-05fe-490f-8235-dcb8beccd8a0.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\ateta-30222d73-c67a-419d-81a3-db42f0ea98ba.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\be-66252cbd-6dc0-49e5-8f9d-2c6046917b5b.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\bt-1513be3c-358d-4491-a3f1-6f733f6f5f67.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\case-71e9237d-2d80-484e-9520-0b54a0f56fbd.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\cci-b79ccb28-b13c-4356-bff3-52098d783411.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\chk-a4abf849-a33d-4ba6-8956-fc99914e7b0d.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\citf-262bab01-5eb9-49d4-8c92-518bd57a847b.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\cj-1710ffeb-77de-487d-98c1-b16164ccb2c5.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\cl-90826a06-43c0-4d18-bde9-3137ac01a0ac.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\clrp-b7bf0909-b285-42fa-905f-12b97683ad02.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\cni-dec77864-5389-47fa-8838-30eac04a76c0.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\Comment-fbbee314-28e6-4994-8c87-d9a7c71230da.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\ConcatString-60d4ed64-ebe1-477e-9d98-9c7d43ae71e4.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\cp-cd33c7b7-e72a-4981-a348-c913e98aec88.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\CreateCursor-13832a4f-7991-4fdf-a3da-42860d200356.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\CreateDatabase-24ee6fb3-d2d2-494e-b1a1-e2e12e9fe191.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\CreateDatabaseSnapshot-1a264945-bbf8-4514-80c2-246369a5c425.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\CreateSchema-833ae3c5-117d-4d39-ac1e-1a3dc568827e.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\CreateTable-b54cf51d-d202-4950-855b-fbf5aa847c98.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\CreateTempTable-b8bf4611-2dbd-4c5d-81b4-c7e4df844d68.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\csf-cfe027d3-ea0b-45c9-bd47-86eb3eb709b1.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\cte-0beed14a-75a5-4ef3-b552-92d3c36ae95c.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\ctf-4314c912-fd18-422a-a02e-3f55c613bcee.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\ctr-00a9c073-f3c0-4bcd-948a-c1f54c4d85ac.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\cu-cf9b3cea-e0f3-4979-87f9-011be5a393bc.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\cuci-b2a48c49-8fc4-49bb-ac89-f81d4ff777c7.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\cuni-93217a61-ec72-44cf-9113-66b83a230cb1.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\cv-6bd92d24-5118-4267-b6d1-2e6412cc59da.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\DeclareTableVariable-28630416-08fb-461e-affe-04ad6d3a3e97.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\df-ab79500a-b7a3-4804-8a22-e8eece537899.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\di-65214f0e-2a58-4ab1-9fc1-59cc9c32d66c.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\dl-30e110a9-1989-4fa4-a796-b4693ae59028.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\DropDatabase-b76f1e09-d700-4654-a844-36c2d111d35b.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\DropIndex-c12dd62b-8b9e-47ed-8f19-dfdfa509cc27.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\DropInlineTableValuedFunction-1df84dd5-c5d4-401e-8395-beae05efe6a2.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\DropScalarFunction-17580f04-b8c5-4dff-ae50-f18c185ba8ef.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\DropSchema-43c4eb36-9473-439b-876b-2dd1dfd53508.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\DropStoredProcedure-989bdb39-9a43-4370-bc3e-0c86d9a5cdf5.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\DropTable-2d8c2725-2bec-4972-89bd-2cb3f4fc7a58.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\DropTableValuedFunction-e2f68f37-cc10-4762-8898-c1940543ed2f.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\DropTempTable-8e75b7da-0780-4956-8a82-4c9673ea3944.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\DropTrigger-d0c0ab3c-5755-49d1-aff8-1c6759497504.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\DropView-9330471b-73ac-4c1d-b169-5296aab10b2f.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\du-407a5bb8-c3df-43be-87ad-3bbb7e19dedd.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\DynamicSQL-85bd4794-dc85-4b9a-a945-628be7b6c8a9.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\eata-f2da7e08-a23c-4925-ad4e-dd219f83e864.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\err-3e2a8501-fd4a-4bfb-aeec-3f8c5635c590.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\fj-07374c16-2bc4-4a7c-8f6e-9a7772d9ea5d.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\foff-13d20ba5-beed-455d-9fbb-25458fd7b2ab.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\foj-24e32dac-577a-477c-ab89-29f5806d76f9.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\fon-b012b792-7c31-43f9-81fa-47fe53a59d35.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\gb-9b3dd4a7-b2b0-422b-8720-2f4fb66025f4.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\IfExists-b48663de-27ba-4636-a554-14f51d26518b.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\IfNotExists-4e9aafcc-4c78-431e-9011-8747513ce00d.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\ifs-f54f59c4-51f6-48c9-b40d-8201cfbc8a3c.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\ii-22f0f0f3-ce09-48da-a8c6-3663cef93c1f.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\ij-fe2d03e7-4f87-42fc-a190-1d87c63911ee.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\is-a73a92ab-fadd-4b50-b60a-14addc0126b5.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\lj-317a0ac8-6206-47aa-8af3-f597a45f0718.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\loj-636d7778-166d-4eb1-951a-183563353011.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\mro-a629af86-6907-483e-9f68-ea9a674028a9.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\ob-e4992ffe-8ec0-46ae-ba2b-d24ecfd98e90.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\PrintInstantly-4efc2b05-6742-4104-9539-a535e3a2d95e.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\ReadErrorLog-a7026fff-e2f8-4d12-9bf0-4ed2c81ca95f.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\rj-a329a463-a666-4b9d-b10b-ba4040507b8d.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\roj-64d08c25-52ff-4fe1-b988-f1c6260ffa86.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\rt-8c090111-2fab-4578-a4a0-d0adcbe1fadf.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\san-0ba3fc29-31d5-47c7-98d3-645fe8f7aaf3.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\scf-bd5248b3-83a4-482e-a59f-11d02b544678.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\ShrinkLogFile-bfb1f0b6-16c4-4f04-bcf9-3ad56e726c8f.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\sph-4c258da3-faa1-439a-9a03-31eaff3d3775.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\spt-6317d9c9-a238-4465-9a74-fcc38ec7a1da.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\sqi-020c4a58-6c46-4f48-9397-3458f88437a8.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\ssf-7273c519-a471-4736-aed1-05c0a4d26633.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\st100-cbf0200b-0b1e-4de6-8e64-6cc668d2f532.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\StartJob-e4ab4494-6cc9-4ffb-b48f-8685cf8bd95c.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\sxa-f609b486-d7b5-4a31-8d22-b8722f086842.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\tc-2f16ef90-2025-4861-b830-8691215b2497.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\timings-1bb4b796-1e0f-47a1-b6ab-ff2f5999dcd8.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\tvc-b3a0b4f6-65c3-493d-9da2-81c29387fc63.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\w2-223d1bce-9c6d-45c0-b0d0-8347bd350b7d.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\WhoIsActiveExtended-4211d096-4e16-42dc-b23c-21aa1f989c9b.json 
+C:\GitHub\SQLpromptSnippets\Snippets\JSON New Format Backup\xpfd-bcc231c9-5193-4864-b1dc-27837c8e12d9.json 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\AddColumn.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\AddConstraint.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\AddExtendedProperty.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\af.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\ap.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\at.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\atac.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\atd.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\atdc.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\atdt.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\atdta.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\atet.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\ateta.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\be.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\bt.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\case.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\cci.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\chk.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\citf.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\cj.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\cl.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\clrp.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\cni.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\Comment.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\ConcatString.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\cp.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\CreateCursor.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\CreateDatabase.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\CreateDatabaseSnapshot.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\CreateSchema.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\CreateTable.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\CreateTempTable.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\csf.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\cte.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\ctf.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\ctr.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\cu.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\cuci.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\cuni.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\cv.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\DeclareTableVariable.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\df.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\di.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\dl.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\DropDatabase.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\DropIndex.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\DropInlineTableValuedFunction.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\DropScalarFunction.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\DropSchema.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\DropStoredProcedure.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\DropTable.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\DropTableValuedFunction.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\DropTempTable.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\DropTrigger.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\DropView.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\du.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\DynamicSQL.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\eata.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\err.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\fj.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\foff.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\foj.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\fon.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\gb.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\IfExists.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\IfNotExists.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\ifs.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\ii.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\ij.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\is.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\lj.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\loj.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\mro.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\ob.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\PrintInstantly.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\ReadErrorLog.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\rj.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\roj.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\rt.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\san.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\scf.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\ShrinkLogFile.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\sph.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\spt.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\sqi.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\ssf.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\st100.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\StartJob.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\sxa.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\tc.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\timings.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\tvc.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\w2.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\WhoIsActiveExtended.sqlpromptsnippet 
+C:\GitHub\SQLpromptSnippets\Snippets\SQLPROMPTSNIPPET Old Format Backup\xpfd.sqlpromptsnippet 
