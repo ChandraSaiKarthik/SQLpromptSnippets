@@ -3,7 +3,7 @@
   "name": "CreateSchema",
   "prefix": "CreateSchema",
   "description": "Create Schema",
-  "body": "IF NOT EXISTS (SELECT * FROM sys.schemas WHERE name = N'$schema_name$')\n\tCREATE SCHEMA $schema_name$;\nGO\n$CURSOR$",
+  "body": "IF NOT EXISTS (SELECT * FROM sys.schemas WHERE name = N'$schema_name$')\n\tEXECUTE('CREATE SCHEMA $schema_name$');\nGO\n$CURSOR$",
   "placeholders": [
     {
       "name": "schema_name",
