@@ -1,8 +1,0 @@
-{
-  "id": "1710ffeb-77de-487d-98c1-b16164ccb2c5",
-  "name": "cj",
-  "prefix": "cj",
-  "description": "CROSS JOIN fragment",
-  "body": "CROSS JOIN ",
-  "placeholders": []
-}

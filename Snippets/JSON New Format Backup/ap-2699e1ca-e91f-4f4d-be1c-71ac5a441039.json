@@ -1,8 +1,0 @@
-{
-  "id": "2699e1ca-e91f-4f4d-be1c-71ac5a441039",
-  "name": "ap",
-  "prefix": "ap",
-  "description": "ALTER PROCEDURE fragment",
-  "body": "ALTER PROCEDURE ",
-  "placeholders": []
-}

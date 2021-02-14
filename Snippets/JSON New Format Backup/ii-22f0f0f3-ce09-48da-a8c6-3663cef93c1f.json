@@ -1,8 +1,0 @@
-{
-  "id": "22f0f0f3-ce09-48da-a8c6-3663cef93c1f",
-  "name": "ii",
-  "prefix": "ii",
-  "description": "INSERT INTO fragment",
-  "body": "INSERT INTO ",
-  "placeholders": []
-}

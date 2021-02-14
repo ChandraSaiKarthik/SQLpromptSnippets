@@ -1,8 +1,0 @@
-{
-  "id": "4efc2b05-6742-4104-9539-a535e3a2d95e",
-  "name": "PrintInstantly",
-  "prefix": "PrintInstantly",
-  "description": "Print Statement Instantly using RaiseError",
-  "body": "DECLARE @PrintString NVARCHAR(MAX) = N'',\n        @xStartTime VARCHAR(32) = '', @xEndTime VARCHAR(32) = '', @xDuration VARCHAR(16) = '';\n--\nSET @xStartTime = CONVERT(VARCHAR(32), GETDATE(), 126);\nSET @PrintString = N'Process | Started at: ' + @xStartTime;\nRAISERROR(@PrintString, 0, 1) WITH NOWAIT;\n\nBEGIN\n    PRINT 'Any Process';\n    --WAITFOR DELAY '00:00:02'; /*As Example*/\nEND;\n\nSET @xEndTime = CONVERT(VARCHAR(32), GETDATE(), 126);\nSET @xDuration = CONVERT(VARCHAR(16), (GETDATE() - CONVERT(DATETIME, @xStartTime)), 114);\nSET @PrintString = N'Process | Started at: ' + @xStartTime + N' and Completed at: ' + @xEndTime + N' => Duration: ' + @xDuration;\nRAISERROR(@PrintString, 0, 1) WITH NOWAIT;",
-  "placeholders": []
-}

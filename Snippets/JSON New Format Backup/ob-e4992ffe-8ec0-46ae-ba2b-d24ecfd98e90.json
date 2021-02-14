@@ -1,8 +1,0 @@
-{
-  "id": "e4992ffe-8ec0-46ae-ba2b-d24ecfd98e90",
-  "name": "ob",
-  "prefix": "ob",
-  "description": "ORDER BY fragment",
-  "body": "ORDER BY ",
-  "placeholders": []
-}
