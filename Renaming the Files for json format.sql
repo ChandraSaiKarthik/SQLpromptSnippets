@@ -127,3 +127,6 @@ PRINT '/*Files ReNaming Process Completed*/';
 
 --
 COMMIT TRANSACTION;
+--
+--
+EXEC sys.xp_cmdshell @DEL_FileList;
