@@ -3,7 +3,7 @@
   "name": "Comment",
   "prefix": "Comment",
   "description": "Comment Fragment",
-  "body": "/* =================================================================================================\n-- Author\t\t: $USER$\n-- Create Date\t: $DATE$ $TIME$\n-- Database\t\t: $DBNAME$\n-- Script\t\t: $ScriptName$\n-- Description\t: $CURSOR$\n-- History\t\t:\n================================================================================================= */\n\n",
+  "body": "/* =================================================================================================\n-- Author\t\t: $USER$\n-- Create Date\t: $DATE$ $TIME$\n-- Server\t\t: $SERVER$\n-- Database\t\t: $DBNAME$\n-- Script\t\t: $ScriptName$\n-- Description\t: $CURSOR$\n-- Usage\t\t:\n-- History\t\t:\n================================================================================================= */\n\n",
   "placeholders": [
     {
       "name": "ScriptName",
