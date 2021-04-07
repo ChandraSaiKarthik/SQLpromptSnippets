@@ -1,0 +1,6 @@
+{
+  "id": "749026d8-e05f-497d-a342-9e86fd00dfa0",
+  "prefix": "st10",
+  "description": "Select Top 10 Rows",
+  "body": "SELECT TOP (10) * FROM $CURSOR$"
+}

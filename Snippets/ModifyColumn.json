@@ -1,0 +1,24 @@
+{
+  "id": "be5fb3ae-591d-48af-98b7-c1f5a976cfa9",
+  "prefix": "ModifyColumn",
+  "description": "Modify Column If Exists",
+  "body": "IF EXISTS (SELECT 1 FROM sys.columns WHERE object_id = OBJECT_ID(N'$schema_name$.$table_name$') AND name = N'$column_name$')\r\n\tALTER TABLE $schema_name$.$table_name$ MODIFY COLUMN $column_name$ $datatype$;\r\nGO\r\n\r\n$CURSOR$",
+  "placeholders": [
+    {
+      "name": "schema_name",
+      "defaultValue": null
+    },
+    {
+      "name": "table_name",
+      "defaultValue": null
+    },
+    {
+      "name": "column_name",
+      "defaultValue": null
+    },
+    {
+      "name": "datatype",
+      "defaultValue": null
+    }
+  ]
+}
