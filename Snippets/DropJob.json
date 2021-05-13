@@ -1,0 +1,12 @@
+{
+  "id": "41e9dec7-87cf-49b7-acfc-3bd2b5b70fb3",
+  "prefix": "DropJob",
+  "description": "Drop Job If Already Exists",
+  "body": "IF EXISTS (SELECT 1 FROM msdb.dbo.sysjobs WHERE name = N'$JobName$')\r\n\tEXEC msdb.dbo.sp_delete_job --\r\n\t\t@job_name = '$JobName$',\r\n\t\t@delete_history = 1,\r\n\t\t@delete_unused_schedule = 1;\r\nGO",
+  "placeholders": [
+    {
+      "name": "JobName",
+      "defaultValue": null
+    }
+  ]
+}
