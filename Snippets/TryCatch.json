@@ -1,0 +1,6 @@
+{
+  "id": "2f16ef90-2025-4861-b830-8691215b2497",
+  "prefix": "TryCatch",
+  "description": "TRY ... CATCH fragment",
+  "body": "BEGIN TRY\n    BEGIN TRANSACTION;\n    \t$SELECTEDTEXT$\n    COMMIT TRANSACTION;\nEND TRY\nBEGIN CATCH\n    PRINT 'Error: ' + ERROR_MESSAGE();\n    PRINT 'Transaction was Rolled Back.';\n    ROLLBACK TRANSACTION;\nEND CATCH;"
+}
