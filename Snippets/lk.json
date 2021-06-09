@@ -1,0 +1,6 @@
+{
+  "id": "71c93595-17f5-46e3-8ce3-aea5c6d6845f",
+  "prefix": "lk",
+  "description": "Like WildCard",
+  "body": "LIKE '%$CURSOR$%'"
+}
