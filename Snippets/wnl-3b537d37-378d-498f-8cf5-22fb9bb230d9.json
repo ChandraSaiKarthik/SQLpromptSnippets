@@ -1,0 +1,6 @@
+{
+  "id": "3b537d37-378d-498f-8cf5-22fb9bb230d9",
+  "prefix": "wnl",
+  "description": "With NoLock",
+  "body": "WITH (NOLOCK)"
+}
