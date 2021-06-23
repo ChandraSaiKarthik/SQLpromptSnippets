@@ -1,8 +1,6 @@
 {
   "id": "1513be3c-358d-4491-a3f1-6f733f6f5f67",
-  "name": "bt",
-  "prefix": "bt",
+  "prefix": "btrn",
   "description": "Begin transaction",
-  "body": "BEGIN TRANSACTION ",
-  "placeholders": []
+  "body": "BEGIN TRANSACTION "
 }
