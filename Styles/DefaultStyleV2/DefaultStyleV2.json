@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "id": "960ad51d-3fc0-44f7-97b4-b57fad112d15",
+    "name": "DefaultV2"
+  },
+  "whitespace": {
+    "spacesOrTabs": "tabsIfPossible",
+    "wrapLongLines": false,
+    "newLines": {
+      "preserveExistingEmptyLinesBetweenStatements": false,
+      "preserveExistingEmptyLinesAfterBatchSeparator": false
+    }
+  },
+  "lists": {
+    "alignItemsAcrossClauses": false,
+    "alignComments": true
+  },
+  "parentheses": {
+    "parenthesisStyle": "expandedToStatement",
+    "indentParenthesesContents": true,
+    "collapseParenthesesShorterThan": 75
+  },
+  "casing": {
+    "reservedKeywords": "uppercase",
+    "builtInFunctions": "uppercase",
+    "builtInDataTypes": "uppercase",
+    "useObjectDefinitionCase": true
+  },
+  "dml": {
+    "collapseStatementsShorterThan": 75,
+    "collapseShortSubqueries": true,
+    "collapseSubqueriesShorterThan": 75
+  },
+  "ddl": {
+    "parenthesisStyle": "expandedToStatement",
+    "indentParenthesesContents": true,
+    "placeConstraintsOnNewLines": true,
+    "placeConstraintColumnsOnNewLines": "ifLongerOrMultipleColumns",
+    "collapseShortStatements": true,
+    "collapseStatementsShorterThan": 75
+  },
+  "controlFlow": {
+    "collapseStatementsShorterThan": 78
+  },
+  "cte": {
+    "parenthesisStyle": "expandedSimple",
+    "indentContents": true
+  },
+  "variables": {
+    "alignDataTypesAndValues": false,
+    "placeEqualsSignOnNewLine": true
+  },
+  "joinStatements": {
+    "join": {
+      "indentJoinTable": false
+    },
+    "on": {
+      "keywordAlignment": "indented"
+    }
+  },
+  "insertStatements": {
+    "values": {
+      "indentContents": true
+    }
+  },
+  "caseExpressions": {
+    "collapseCaseExpressionsShorterThan": 75
+  },
+  "operators": {
+    "andOr": {
+      "alignment": "toFirstListItem"
+    },
+    "in": {
+      "placeFirstValueOnNewLine": "never",
+      "placeSubsequentValuesOnNewLines": "never",
+      "addSpaceAroundInContents": true
+    }
+  }
+}
